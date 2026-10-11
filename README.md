@@ -15,6 +15,15 @@ Portfolio lab using a **ServiceNow Personal Developer Instance (PDI)** to simula
 | Printer unavailable | `INC0010008` | Print queue, Print Spooler service, printer connectivity, drivers, test page | Resolution workflow documented |
 | Department-wide network outage | `INC0010010` | Impact assessment, infrastructure investigation, escalation and stakeholder communication | Left In Progress pending simulated restoration |
 
+## Exercise reports (Microsoft Word)
+Each report includes annotated screenshots and a step-by-step explanation of the simulated incident workflow.
+
+1. [Exercise 1 — Account Lockout](Exercise_01_Account_Lockout.docx) — `INC0010003`
+2. [Exercise 2 — Network Connectivity](Exercise_02_Network_Connectivity.docx) — `INC0010006`
+3. [Exercise 3 — Outlook Application Crash](Exercise_03_Outlook_Application_Crash.docx) — `INC0010007`
+4. [Exercise 4 — Printer Troubleshooting](Exercise_04_Printer_Troubleshooting.docx) — `INC0010008`
+5. [Exercise 5 — Widespread Network Outage](Exercise_05_Widespread_Network_Outage.docx) — `INC0010010`
+
 ## Skills demonstrated
 - **ITSM / ServiceNow:** incident intake, ticket tracking, status changes, work notes, resolution documentation
 - **Help desk:** troubleshooting methodology, clear technical notes, customer communication
@@ -32,12 +41,12 @@ Portfolio lab using a **ServiceNow Personal Developer Instance (PDI)** to simula
 6. Capture evidence screenshots.
 
 ## Evidence
-The project evidence package contains 11 screenshots in a `screenshots/` folder, including incident forms, status changes, and posted work notes. **Screenshots will be linked here after upload.** Some final resolution screenshots were not available in the export.
+The five Word reports linked above include screenshots and written descriptions of each simulated incident. The documents are the primary evidence for this portfolio project.
 
 ## Lessons learned
 ServiceNow distinguishes customer-visible comments from internal technician work notes. High-impact incidents require appropriate prioritization, communication, and escalation. A ticket should not be closed simply because troubleshooting has started: restoration must be verified in real environments.
 
 ## Future improvements
-- Add the remaining resolution and escalation screenshots.
+- Add any remaining resolution and escalation evidence not captured in the reports.
 - Reproduce selected troubleshooting procedures in a disposable Windows test VM and capture actual command results.
 - Practice assignment group routing and SLA tracking in the developer instance.
